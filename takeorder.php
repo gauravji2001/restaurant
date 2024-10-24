@@ -1,6 +1,6 @@
 <?php
 
-    include 'import/connect.php';
+    include 'import/connect.php';//use include to attech file
 
     // Fetch food items
     $get_items_query = "SELECT * FROM fooditems";
